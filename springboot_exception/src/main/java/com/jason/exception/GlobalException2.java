@@ -11,7 +11,7 @@ import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
  *
  *
  */
-@Configuration
+//@Configuration
 public class GlobalException2 {
 	
 	/**
