@@ -21,7 +21,7 @@ public class RedisConfig {
 
 	/**
 	 * 1.创建JedisPoolConfig对象。在该对象中完成一些链接池配置
-	 *
+	 * @ConfigurationProperties:会将前缀相同的内容创建一个实体。
 	 */
 	@Bean
 	@ConfigurationProperties(prefix="spring.redis.pool")
